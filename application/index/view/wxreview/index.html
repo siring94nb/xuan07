@@ -1,0 +1,89 @@
+{include file="public/head" /}
+{include file="public/top" /}
+<input type="hidden" id="nowhtml" value="wxreview">
+<script src="/js/layer/layer.js"></script>
+<style>
+.layui-layer-loading .layui-layer-loading1{background-size: 80px 80px}
+</style>
+{if $xcxewm}
+	<ul class="breadcrumb">
+		<li>
+			<i class="icon-home"></i>
+			上传微信审核--{$applet.name}
+		</li>
+	</ul>
+
+
+		<div class="row-fluid">
+		<div class="portlet box">
+			<div class="portlet-body form">
+					<div style="text-align:center">
+						<div style="display: flex;flex-direction: row;font-size:18px;justify-content:center;">
+							<div class="one active">
+								<span style="width:30px;height:30px;line-height:30px;background:#428bca;color:#fff;display: inline-block;border-radius: 30px!important;">1</span> 扫描二维码
+							</div>
+							<img src="/image/btn_jt.png" alt="" style="width:40px;height:40px;margin:0 50px">
+							<div class="two">
+								<span style="width:30px;height:30px;line-height:30px;background:#999;color:#fff;display: inline-block;border-radius: 30px!important;">2</span> 填写信息并上传代码
+							</div>
+							<img src="/image/btn_jt.png" alt="" style="width:40px;height:40px;margin:0 50px">
+							<div class="three">
+								<span style="width:30px;height:30px;line-height:30px;background:#999;color:#fff;display: inline-block;border-radius: 30px!important;">3</span> 上传成功
+							</div>
+						</div>
+						<img src="{$xcxewm}" alt="" style="width:140px;background:#f7f7f7;padding:10px;margin:50px auto 10px">
+						<p>请先扫描以上二维码，成功后再填写版本信息</p>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+	<script>
+	var request = true;
+	var appid = "{$appid}";
+	var name = "{$projectname}";
+	function res(){
+		if(request == false){
+			return true;
+		}else{
+			var uniacid = {$applet.id};
+			$.ajax({
+			    url : "{:Url('Wxreview/checklogin')}",type:'post',dataType:'json',
+			    data:{
+			    	uniacid:uniacid,
+			    	appid : appid,
+			    	name : name
+			    },beforeSend:function(){
+			    	request = false;
+			    },
+			    success:function (res) {
+			    	if(res == 1){
+			    		request = false;
+	                    setInterval("djs()",1000);
+	                    setTimeout(function wxxcx(){
+	                    	window.location.href = "{:Url('Wxreview/wxxcxinfo')}?appletid="+uniacid+"&status=1"; 
+	                    },20000);
+			    	}else{
+			    		request = true;
+			    	}
+			    }
+			});
+		}
+	}
+	var time = 20;
+	function djs(){
+		time--;
+		layer.msg('项目加载中，预计还剩'+time+'s');
+		
+	}
+	setInterval("res()",2000);
+	
+	</script>
+{/if}
+
+
+{include file="public/foot_more" /}

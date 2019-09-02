@@ -1,0 +1,138 @@
+	
+
+
+
+		</div>
+	</div>
+</div>
+<script>
+function copyid(id){
+	var clipboard = new Clipboard('.js-clip'+id);
+	clipboard.on('success', function(e) {
+	    alert("ID复制成功");
+	    e.clearSelection();
+	});
+
+	clipboard.on('error', function(e) {
+	    alert("ID复制失败");
+	});
+}
+</script>
+
+	
+
+	<script src="/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+	<script src="/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+
+	<script src="/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<script src="/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+	<script src="/js/jquery.blockui.min.js" type="text/javascript"></script>  
+
+	<script src="/js/jquery.cookie.min.js" type="text/javascript"></script>
+
+	<script src="/js/jquery.uniform.min.js" type="text/javascript" ></script>
+
+	<script type="text/javascript" src="/js/bootstrap-fileupload.js"></script>
+
+	<script type="text/javascript" src="/js/chosen.jquery.min.js"></script>
+
+	<script type="text/javascript" src="/js/select2.min.js"></script>
+
+	<script type="text/javascript" src="/js/wysihtml5-0.3.0.js"></script> 
+
+	<script type="text/javascript" src="/js/bootstrap-wysihtml5.js"></script>
+
+	<script type="text/javascript" src="/js/jquery.tagsinput.min.js"></script>
+
+	<script type="text/javascript" src="/js/jquery.toggle.buttons.js"></script>
+
+	<script type="text/javascript" src="/js/bootstrap-datepicker.js"></script>
+
+	<script type="text/javascript" src="/js/bootstrap-datetimepicker.js"></script>
+
+	<script type="text/javascript" src="/js/clockface.js"></script>
+
+	<script type="text/javascript" src="/js/date.js"></script>
+
+	<script type="text/javascript" src="/js/daterangepicker.js"></script> 
+
+	<script type="text/javascript" src="/js/bootstrap-colorpicker.js"></script>  
+
+	<script type="text/javascript" src="/js/bootstrap-timepicker.js"></script>
+
+	<script type="text/javascript" src="/js/jquery.inputmask.bundle.min.js"></script>   
+
+	<script type="text/javascript" src="/js/jquery.input-ip-address-control-1.0.min.js"></script>
+
+	<script type="text/javascript" src="/js/jquery.multi-select.js"></script>   
+
+	<script src="/js/bootstrap-modal.js" type="text/javascript" ></script>
+
+	<script src="/js/bootstrap-modalmanager.js" type="text/javascript" ></script> 
+
+	<script src="/js/app.js"></script>
+	
+	
+	<script src="/js/form-components.js"></script>   
+
+	<script src="/js/ui-modals.js"></script>
+	
+
+	<script>
+
+		jQuery(document).ready(function() {  
+
+
+			// 设置div高度为屏幕高度
+			// total = document.documentElement.clientHeight-42;
+			// $("#container").css("min-height",total);
+			
+
+
+		   	App.init(); // initlayout and core plugins
+		   	FormComponents.init();
+			UIModals.init();
+		   
+
+			$.fn.datetimepicker.dates['zh-CN'] = {  
+	            days: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"],  
+	            daysShort: ["周日", "周一", "周二", "周三", "周四", "周五", "周六", "周日"],  
+	            daysMin:  ["日", "一", "二", "三", "四", "五", "六", "日"],  
+	            months: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],  
+	            monthsShort: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],  
+	            today: "今天",  
+	            suffix: [],  
+	            meridiem: ["上午", "下午"]  
+	    	}; 
+		   	$('#datetimepicker').datetimepicker({language:  'zh-CN'});
+		   	$('#datetimepickers').datetimepicker({
+		   		minView: "month",//设置只显示到月份
+		   		language:  'zh-CN',
+		   		format : "yyyy-mm-dd",//日期格式
+				autoclose:true,//选中关闭
+		   	});
+
+		   //控制左侧导航选中
+		   //1.一级导航选中
+		   // var nowhtml = $("#nowhtml").val();
+		   // $("#"+nowhtml).addClass("active1");
+		   // var pli = $("#"+nowhtml).parent().parent();
+		   // $("#"+nowhtml).removeClass("arrow");
+		   // $(pli).addClass("active");
+		   //2.二级导航选中
+		   // var erji = $("#erjihtml").val();
+		   // if(erji){
+		   // 		$("#"+erji).addClass("active");
+		   // }
+
+		});
+
+	</script>
+
+
+
+	</body>
+</html>

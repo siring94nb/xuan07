@@ -1,0 +1,158 @@
+{include file="public/head" /}
+{include file="public/s_head" /}
+
+		<div>
+			<div class="wgldxcs">
+				<span>
+					<img src="/image/weixin.png">
+				</span>
+				我管理的用户
+			</div>
+			<div class="sruck">
+				<input type="text" placeholder="请输入搜索用户姓名" class="sousxcx" id="keyworld">
+				<div class="nid" onclick="search()">
+					<img src="/image/search-icon.png">
+				</div> 
+			</div>
+			<a href="{:Url('Applet/add_admin')}">
+			<div class="addxcx">
+				<i class="icon-plus"></i> 
+				添加用户
+			</div>
+			</a>
+		</div>
+
+		
+		<div class="shuxcs">
+			<table class="table table-striped table-hover table-bordered" id="applet">
+
+				<thead>
+
+					<tr style="background-color:#f4f5f9;">
+
+						<th style="width: 50px;">UID</th>
+
+						<th style="width:60px;">姓名</th>
+
+						<th style="width: 60px;">联系电话</th>
+
+						<th style="width: 100px;">用户名</th>
+
+						<th style="width: 200px;">邮箱</th>
+
+						<th style="width: 100px;">注册时间</th>
+
+						<th style="width: 100px;">所属经销商</th>
+
+						<th style="width: 100px;">最近登录时间</th>
+						
+						<th style="width: 200px;">操作</th>
+
+					</tr>
+
+				</thead>
+
+				<tbody>
+					{if $admin_arr}
+					{foreach $admin_arr as $item} 
+					<tr class="">
+
+						<td >{$item.uid}</td>
+
+						<td>{$item.realname}</td>
+
+						<td >{$item.mobile}</td>
+
+						<td>{$item.username}</td>
+
+						<td >{$item.email}</td>
+
+						<td>{$item.updatetime|date='Y-m-d H:i:s',###}</td>
+
+						<td>
+							{$item.jxs}
+						</td>
+
+						<td>{if $item.lastlogintime}{$item.lastlogintime|date='Y-m-d H:i:s',###}{/if}</td>
+
+						<td>
+							<a href="{:Url('Applet/add_admin')}?uid={$item.uid}" style="float:left">
+								<input type="button" value="修改资料"  class="btn green">
+							</a>
+							<form action="{:Url('Applet/czmm')}"  method="post" enctype="multipart/form-data" style="float:left; margin-left:10px; margin-bottom:0" onsubmit = "return checkinfo('{$item.realname}');">
+								<input type="hidden" value="{$item.uid}" name="uid">
+								<input type="submit" value="重置密码"  class="btn green">
+							</form>
+							<form action="{:Url('Applet/del_user')}"  method="post" enctype="multipart/form-data" style="float:left; margin-left:10px; margin-bottom:0" onsubmit = "return del_user_conf();">
+								<input type="hidden" value="{$item.uid}" name="uid">
+								<input type="submit" value="删除用户"  class="btn green">
+							</form>
+						</td>
+
+					</tr>
+					{/foreach} 
+					{/if}
+				</tbody>
+
+
+			</table>
+
+			<!-- 分页 -->
+			<div>
+				<div class="fenye_left">
+					一共查询到<font color="red" style="padding:0 10px;">{$counts}</font>条数据
+				</div>
+				<div class="fenye_right">
+					{$admins->render()}
+				</div>
+				
+			</div>
+
+
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+	<script type="text/javascript">
+		// 搜索功能
+		function search(){
+			var val = $("#keyworld").val();
+			if(!val){
+				alert("请输入搜索用户姓名");
+			}else{
+				location.href="{:Url('Applet/add_user')}"+"?keyworld="+val;
+			}
+		}
+		function checkinfo(name){
+			if(confirm('您确定要重置用户'+name+'的密码嘛?')){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		function del_user_conf(){
+			if(confirm('您确定要删除该用户嘛?')){
+				return true;
+			}else{
+				return false;
+			}
+		}
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+	{include file="public/foot" /}

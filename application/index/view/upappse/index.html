@@ -1,0 +1,48 @@
+
+{include file="public/head" /}
+{include file="public/s_head" /}
+
+
+<div class="row-fluid">
+
+	<div class="span12">
+
+		<div class="portlet box ">
+
+			<div class="portlet-body" style="width:60%; margin:0 auto">
+
+				<div style="text-align:center">
+					当前版本为：v{$Think.VERSION_APP}   {$updateinfo}
+				</div>
+				<div style="text-align:center; height:20px; border-bottom:1px dashed #dedede;">
+					
+				</div>
+				<div style="padding-top:20px;">
+				{if $versions == 1}
+					{$vis}版本更新详情，版本上线时间：{$updatetime}
+				{/if}
+					<div style="margin-top:20px;">
+						{$chanageinfo}
+					</div>
+					
+				</div>
+
+				<div style="margin-top:50px;border:1px solid #eee;padding:20px">
+					<div style="color:#605ab0;background: #fff;padding-bottom: 10px;border-bottom: 1px solid #eee;margin-bottom: 20px">最近5版更新记录</div>
+					{volist name="l_con" id="vo"}
+						{$vo}
+					{/volist}
+				</div>
+
+				
+
+			</div>	
+
+		</div>
+		
+
+	</div>
+
+</div>
+
+

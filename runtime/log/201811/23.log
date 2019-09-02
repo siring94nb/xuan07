@@ -1,0 +1,509 @@
+---------------------------------------------------------------
+[ 2018-11-23T20:54:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028484s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.021969s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.009430s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.002490s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007681s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.009110s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.009356s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004765s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.009286s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.009454s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:34+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007398s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.015758s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.014097s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/listnews/index.html?cate=2
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027246s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.022369s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.001158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_cate` [ RunTime:0.013644s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_cate` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.021698s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 1 [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 0,10 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` LIMIT 5 [ RunTime:0.000896s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027342s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.012962s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.009695s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006185s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.023013s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.013037s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027056s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.021732s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.015094s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000743s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:56+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016740s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.015913s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.012944s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019567s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.012964s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.010574s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:54:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029088s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.021595s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.018844s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:55:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/login/dologin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019769s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011612s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin'  AND `password` = '21232f297a57a5a743894a0e4a801fc3'  AND `flag` = 1 LIMIT 1 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `flag` = 1  AND `group` = 3 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastloginip`=127,`lastlogintime`=1542977708  WHERE  `uid` = 1 [ RunTime:0.034193s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:55:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003908s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015674s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.012403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.008722s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:55:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014755s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011854s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.007582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.009713s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:55:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/systemset/index.html
+[ error ] [8]Use of undefined constant ‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ - assumed '‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ'
+[ error ] [8]Use of undefined constant ‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ - assumed '‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027902s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.025302s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:55:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027194s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.020899s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.002835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.018940s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.012356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:55:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/systemset/index.html
+[ error ] [8]Use of undefined constant ‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ - assumed '‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ'
+[ error ] [8]Use of undefined constant ‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ - assumed '‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014960s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.019409s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000683s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:56:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/systemset/index.html
+[ error ] [8]Use of undefined constant ‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ - assumed '‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ'
+[ error ] [8]Use of undefined constant ‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ - assumed '‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004413s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.022730s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.001611s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:56:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018801s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.020061s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.010638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.009219s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:56:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/jxs.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.038477s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.019153s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `flag` = 1  AND `group` = 3 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `group` = 3 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `group` = 3 LIMIT 0,10 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `group` = 3 LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:56:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/add_jxs.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014512s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011149s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000826s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:56:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015792s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.010075s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.011020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.006352s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:56:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025674s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.014595s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001009s ]
+---------------------------------------------------------------
+[ 2018-11-23T20:56:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008395s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.019999s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.019661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.011656s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.036491s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.014083s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.011809s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025240s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.013436s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.010118s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.047503s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.016577s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.009479s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016339s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.022145s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.011782s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014335s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.014668s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.006977s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:37+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025690s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.013017s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.010488s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024664s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.015714s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.011941s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007689s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.011636s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.010219s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:22:40+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027358s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.015023s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.012539s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:23:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025766s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015877s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.014214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.011828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:23:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029447s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.021401s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.019083s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.012463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:23:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004135s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.010818s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:23:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025356s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.022227s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.012020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.010233s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:24:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/jxs.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014045s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.009035s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `flag` = 1  AND `group` = 3 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `group` = 3 LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `group` = 3 LIMIT 0,10 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `group` = 3 LIMIT 1 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:24:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/add_jxs.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007848s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.019330s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001281s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:24:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025095s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.012609s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.010261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.008313s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/systemset/index.html
+[ error ] [8]Use of undefined constant ‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ - assumed '‹¸™ÉĞ˜‰Î—í™•øĞ­ÕáÚ²›²ò°æ³×¯­Úç¹“‚ƒäš´²úÍÇôŸ'
+[ error ] [8]Use of undefined constant ‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ - assumed '‚ĞØ´ì‹¨òÛô£‰ĞŒÃäÆÉ©ÓşÛÏÌ¤Äìšîëç¤ÙóÌöç¨ì‹²½˜õ£§¼ìĞ‘ë¬á¹Ğ¦¦ë¶•ØŸ¹²“‡ªû¯—ˆáÕ ×øÇ•æ˜§ÓÅ‰—°´ƒæÊÜ†…šŒ¹—»ÑŸ§Àö ˆˆ'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014620s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.023927s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.001061s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:24:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.031458s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.021797s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.016428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.009831s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/user.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008458s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.022110s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `group` = 1 LIMIT 1 [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `group` = 1 LIMIT 0,10 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `group` = 1 LIMIT 1 [ RunTime:0.000862s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/add_admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017789s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.020542s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001463s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028932s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.010446s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.011178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.012018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017086s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011138s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000778s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.026942s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.010624s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.009369s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016949s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_base` [ RunTime:0.010032s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_base` LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ims_sudu8_page_system_news` [ RunTime:0.008301s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '1' LIMIT 3 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '2' LIMIT 3 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `ims_sudu8_page_system_news` WHERE  `cate` = '3' LIMIT 3 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006533s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.012215s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.009510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.009457s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:25:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index.html
+[ error ] [8]Use of undefined constant ÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê” - assumed '÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê”'
+[ error ] [8]Use of undefined constant ”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½ - assumed '”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016393s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.021125s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001382s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:26:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/save.html
+[ error ] [8]Use of undefined constant ÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê” - assumed '÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê”'
+[ error ] [8]Use of undefined constant ”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½ - assumed '”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½'
+[ error ] [8]Use of undefined constant ú‚ÛÛ‹™åãë™ËÎ€å›Û°–àùŒ•ş - assumed 'ú‚ÛÛ‹™åãë™ËÎ€å›Û°–àùŒ•ş'
+[ error ] [8]Use of undefined constant †× - assumed '†×'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.026490s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.021916s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `realname`='èè',`mobile`='123654565987',`password`='4b871c40db6339036895aa5752c1469c'  WHERE  `uid` = 1 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:26:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index.html
+[ error ] [8]Use of undefined constant ÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê” - assumed '÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê”'
+[ error ] [8]Use of undefined constant ”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½ - assumed '”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025225s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.019828s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001299s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:26:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/login/dologin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.034975s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.023370s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin'  AND `password` = '4b871c40db6339036895aa5752c1469c'  AND `flag` = 1 LIMIT 1 [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `flag` = 1  AND `group` = 3 [ RunTime:0.001077s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastloginip`=127,`lastlogintime`=1542979599  WHERE  `uid` = 1 [ RunTime:0.001031s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:26:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.033113s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015279s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.011504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.011813s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:27:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index/login/dologin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017422s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.014272s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin'  AND `password` = '4b871c40db6339036895aa5752c1469c'  AND `flag` = 1 LIMIT 1 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `flag` = 1  AND `group` = 3 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `lastloginip`=127,`lastlogintime`=1542979623  WHERE  `uid` = 1 [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:27:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/applet/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017065s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.021480s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM applet [ RunTime:0.011452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `applet` [ RunTime:0.008499s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `applet` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `applet` LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:27:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index.html
+[ error ] [8]Use of undefined constant ÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê” - assumed '÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê”'
+[ error ] [8]Use of undefined constant ”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½ - assumed '”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024616s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013120s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000789s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:27:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/save.html
+[ error ] [8]Use of undefined constant ÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê” - assumed '÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê”'
+[ error ] [8]Use of undefined constant ”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½ - assumed '”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½'
+[ error ] [8]Use of undefined constant ú‚ÛÛ‹™åãë™ËÎ€å›Û°–àùŒ•ş - assumed 'ú‚ÛÛ‹™åãë™ËÎ€å›Û°–àùŒ•ş'
+[ error ] [8]Use of undefined constant †× - assumed '†×'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025355s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.023167s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `icon`='http://127.0.0.1/upimages/20181123/ee234d1dd8e04342b7111d201c35058b301.png',`realname`='èè',`mobile`='12365456598'  WHERE  `uid` = 1 [ RunTime:0.000812s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:27:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index.html
+[ error ] [8]Use of undefined constant ÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê” - assumed '÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê”'
+[ error ] [8]Use of undefined constant ”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½ - assumed '”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024794s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.018367s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001402s ]
+---------------------------------------------------------------
+[ 2018-11-23T21:27:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index.html
+[ error ] [8]Use of undefined constant ÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê” - assumed '÷¨Ÿ×½Êş·²‰ûºß¥¯•‚‘¬¼ü¼’Ú¿¨§ÄÄË¼íê”'
+[ error ] [8]Use of undefined constant ”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½ - assumed '”äèà£ı‡Ó”‰ä£¶¡¡ó³û´Û¤ø¡ï¶ÛË¼’ß¡úıƒŸû‹ò•Ø³ËùÕÀ®Ñô‹öí­æ¥½'
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025309s ] mysql:dbname=mendian;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013389s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000844s ]

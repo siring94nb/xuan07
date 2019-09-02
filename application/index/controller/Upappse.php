@@ -1,0 +1,1 @@
+<?phpnamespace app\index\controller;use think\Controller;use think\Db;use think\Request;use think\Session;use think\View;class Upappse extends Controller {    public function index(){//\/\/jq.qq.com\/?_wv=1027&k=5SPQwm8            $tr="<a href='//jq.qq.com/?_wv=1027&k=5SPQwm8'>在线升级请，联系客服! 771382732 </a>";			return $tr;    }}
